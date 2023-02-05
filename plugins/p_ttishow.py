@@ -38,7 +38,7 @@ async def save_group(bot, message):
             return
         buttons = [[
             InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/rai_info17")
+            InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/orgprime")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
@@ -59,7 +59,7 @@ async def save_group(bot, message):
                                                  reply_markup=InlineKeyboardMarkup(
         [[
             InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/rai_info17")
+            InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/orgprime")
         ]]
                                                  ),
                                                  parse_mode=enums.ParseMode.HTML
@@ -85,7 +85,7 @@ async def leave_a_chat(bot, message):
     try:
         buttons = [[
             InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/rai_info17")
+            InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/orgprime")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -125,7 +125,7 @@ async def disable_chat(bot, message):
     try:
         buttons = [[
             InlineKeyboardButton('🧩 𝖲𝖴𝖯𝖯𝖮𝖱𝖳 🧩', url=f"https://t.me/{SUPPORT_CHAT}"),
-            InlineKeyboardButton('⚡𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/rai_info17")
+            InlineKeyboardButton('⚡ 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 ⚡', url="https://t.me/orgprime")
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await bot.send_message(
@@ -214,7 +214,7 @@ async def ban_a_user(bot, message):
             return await message.reply(f"{k.mention} is already banned\nReason: {jar['ban_reason']}")
         await db.ban_user(k.id, reason)
         temp.BANNED_USERS.append(k.id)
-        await message.reply(f"Successfully banned {k.mention}")
+        await message.reply(f"Successfully Banned {k.mention}")
 
 
     
@@ -247,7 +247,7 @@ async def unban_a_user(bot, message):
             return await message.reply(f"{k.mention} is not yet banned.")
         await db.remove_ban(k.id)
         temp.BANNED_USERS.remove(k.id)
-        await message.reply(f"Successfully unbanned {k.mention}")
+        await message.reply(f"Successfully Unbanned {k.mention}")
 
 
     
