@@ -164,11 +164,11 @@ Request Again"""
     CUDNT_FND = """<b><i>
 I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
 
-    I_CUDNT = """❌ <b>𝖨 𝖼𝗈𝗎𝗅𝖽𝗇'𝗍 𝖿𝗂𝗇𝖽 𝖺𝗇𝗒𝗍𝗁𝗂𝗇𝗀 𝗋𝖾𝗅𝖺𝗍𝖾𝖽 𝗍𝗈 𝗍𝗁𝖺𝗍</b>\n\n‼ <b><i>𝖱𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝖺𝖽𝗆𝗂𝗇 ▶ @raixchat</i></b>"""
+    I_CUDNT = """</b><u>🚨 Here Not Available !!</u> \n\n 🌟 If You Want Your Requested Movies or Web Series. ​​👇👇 \n\n 💎 UPGRADE TO PREMIUM PLAN \n 👉 https://t.me/ORGPrime/26 \n\n ✅ Contact ➠ @UHDSupport \n\n ❤️ Premium Channels \n 👉 @MoViesPremium \n 👉 @UHDPrimes \n 👉 @ORGPrime</b>"""
 
-    I_CUD_NT = """❌ <b>𝖨 𝖼𝗈𝗎𝗅𝖽𝗇'𝗍 𝖿𝗂𝗇𝖽 𝖺𝗇𝗒𝗍𝗁𝗂𝗇𝗀 𝗋𝖾𝗅𝖺𝗍𝖾𝖽 𝗍𝗈 𝗍𝗁𝖺𝗍</b>\n\n‼ <b><i>𝖱𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝖺𝖽𝗆𝗂𝗇 ▶ @raixchat</i></b>"""
+    I_CUD_NT = """</b><u>🚨 Here Not Available !!</u> \n\n 🌟 If You Want Your Requested Movies or Web Series. ​​👇👇 \n\n 💎 UPGRADE TO PREMIUM PLAN \n 👉 https://t.me/ORGPrime/26 \n\n ✅ Contact ➠ @UHDSupport \n\n ❤️ Premium Channels \n 👉 @MoViesPremium \n 👉 @UHDPrimes \n 👉 @ORGPrime</b>"""
 
-    MVE_NT_FND = """❌ <b>𝖨 𝖼𝗈𝗎𝗅𝖽𝗇'𝗍 𝖿𝗂𝗇𝖽 𝖺𝗇𝗒𝗍𝗁𝗂𝗇𝗀 𝗋𝖾𝗅𝖺𝗍𝖾𝖽 𝗍𝗈 𝗍𝗁𝖺𝗍</b>\n\n‼ <b><i>𝖱𝖾𝗉𝗈𝗋𝗍 𝗍𝗈 𝖺𝖽𝗆𝗂𝗇 ▶ @raixchat</i></b>"""
+    MVE_NT_FND = """</b><u>🚨 Here Not Available !!</u> \n\n 🌟 If You Want Your Requested Movies or Web Series. ​​👇👇 \n\n 💎 UPGRADE TO PREMIUM PLAN \n 👉 https://t.me/ORGPrime/26 \n\n ✅ Contact ➠ @UHDSupport \n\n ❤️ Premium Channels \n 👉 @MoViesPremium \n 👉 @UHDPrimes \n 👉 @ORGPrime</b>"""
 
     TOP_ALRT_MSG = """𝖢𝗁𝖾𝖼𝗄𝗂𝗇𝗀 Your Q𝗎𝖾𝗋𝗒 𝗂𝗇 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾..."""
 
