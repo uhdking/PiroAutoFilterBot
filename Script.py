@@ -205,14 +205,7 @@ Name <b>: {}</b>
 
 Message <b>: {}</b>"""
 
-    CAPTION = """
-📂 <em>File Name</em>: <code>PIRO|{file_name}</code> 
-
-🖇 <em>File Size</em>: <code>{file_size}</code> 
-
-❤️‍🔥 </i>Join</i> [𝗕𝗟𝗔𝗦𝗧𝗘𝗥 𝗟𝗜𝗡𝗞𝗭](https://t.me/blaster_linkz)  
-
-🖥 <i>Requests</i> - ||@raixpiro_bot|| """
+    CAPTION = """<b>[ @ORGPrime ] -</b> <code>{file_name}</code> \n\n#𝙊𝙍𝙂𝙋𝙧𝙞𝙢𝙚 – #𝙉𝙤𝟏 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙋𝙧𝙚𝙢𝙞𝙪𝙢 𝙈𝙤𝙫𝙞𝙚𝙨 𝘼𝙣𝙙 𝙒𝙚𝙗 𝙎𝙚𝙧𝙞𝙚𝙨 𝙀𝙣𝙩𝙚𝙧𝙩𝙖𝙞𝙣𝙢𝙚𝙣𝙩 𝘾𝙝𝙖𝙣𝙣𝙚𝙡.\n\n <b><i>⏤͟͞𝗝⌡𝗼𝗶𝗻 𝗣𝗿𝗲𝗺𝗶𝘂𝗺 </b></i>– <b>「 @ORGPrime 」</b>"""
 
     IMDB_TEMPLATE_TXT = """
 🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> 
