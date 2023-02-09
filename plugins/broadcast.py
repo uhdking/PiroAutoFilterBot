@@ -10,6 +10,7 @@ import asyncio
 async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
+    disable_web_page_preview = False
     sts = await message.reply_text(
         text='Broadcasting Your Messages...'
     )
@@ -42,8 +43,9 @@ async def verupikkals(bot, message):
 async def broadcast_group(bot, message):
     groups = await db.get_all_chats()
     b_msg = message.reply_to_message
+    disable_web_page_preview = False
     sts = await message.reply_text(
-        text='Broadcasting your messages To Groups...'
+        text='Broadcasting Your Messages To Groups...'
     )
     start_time = time.time()
     total_groups = await db.total_chat_count()
