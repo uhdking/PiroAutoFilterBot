@@ -3,9 +3,9 @@ class script(object):
 
 <b><u>𝖨'𝗆 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖡𝗈𝗍 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖴𝗌𝖾 𝖬𝖾 𝖠𝗌 A 𝖠𝗎𝗍𝗈-𝖿𝗂𝗅𝗍𝖾𝗋 𝗂𝗇 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 !!</u></b>
 
-<i>I𝗍𝗌 𝖤𝖺𝗌𝗒 𝖳𝗈 𝖴𝗌𝖾 𝖬𝖾:-
+I𝗍𝗌 𝖤𝖺𝗌𝗒 𝖳𝗈 𝖴𝗌𝖾 𝖬𝖾:-
 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, 
-𝖳𝗁𝖺𝗍𝗌 𝖠𝗅𝗅, I 𝗐𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾...🤓</i>
+𝖳𝗁𝖺𝗍𝗌 𝖠𝗅𝗅, I 𝗐𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾...🤓
 
 ⚠️ 𝖬𝗈𝗋𝖾 𝖧𝖾𝗅𝗉 𝖧𝗂𝗍 /help
 
@@ -165,11 +165,11 @@ Request Again"""
     CUDNT_FND = """<b><i>
 I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
 
-    I_CUDNT = """</b><u>🚨 Here Not Available !!</u> \n\n 🌟 If You Want Your Requested Movies or Web Series. ​​👇👇 \n\n 💎 UPGRADE TO PREMIUM PLAN \n 👉 https://t.me/ORGPrime/26 \n\n ✅ Contact ➠ @UHDSupport \n\n ❤️ Premium Channels \n 👉 @MoViesPremium \n 👉 @UHDPrimes \n 👉 @ORGPrime</b>"""
+    I_CUDNT = """ """
 
-    I_CUD_NT = """</b><u>🚨 Here Not Available !!</u> \n\n 🌟 If You Want Your Requested Movies or Web Series. ​​👇👇 \n\n 💎 UPGRADE TO PREMIUM PLAN \n 👉 https://t.me/ORGPrime/26 \n\n ✅ Contact ➠ @UHDSupport \n\n ❤️ Premium Channels \n 👉 @MoViesPremium \n 👉 @UHDPrimes \n 👉 @ORGPrime</b>"""
+    I_CUD_NT = """ """
 
-    MVE_NT_FND = """</b><u>🚨 Here Not Available !!</u> \n\n 🌟 If You Want Your Requested Movies or Web Series. ​​👇👇 \n\n 💎 UPGRADE TO PREMIUM PLAN \n 👉 https://t.me/ORGPrime/26 \n\n ✅ Contact ➠ @UHDSupport \n\n ❤️ Premium Channels \n 👉 @MoViesPremium \n 👉 @UHDPrimes \n 👉 @ORGPrime</b>"""
+    MVE_NT_FND = """" ""
 
     TOP_ALRT_MSG = """𝖢𝗁𝖾𝖼𝗄𝗂𝗇𝗀 Your Q𝗎𝖾𝗋𝗒 𝗂𝗇 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾..."""
 
