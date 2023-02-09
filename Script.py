@@ -165,7 +165,50 @@ Request Again"""
     CUDNT_FND = """<b><i>
 I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
 
-    I_CUDNT = """ """
+    I_CUDNT = """<u><b>🚨 Not Available!! Don't Worry...</u></b>
+
+<b>Consider This 👇👇👇
+
+#MOVIESPREMIUM
+
+✓ Recommendations just for you.
+✓ Watch all You Want. Unlimited.
+✓ Watch in 480p to 1080p Quality.
+✓ Buy Premium & Get 5 Channels.
+✓ Get Always First On Telegram.
+✓ 1000000+ Movies Collection.
+✓ This is 100% Trusted Premium.
+
+╭───🔅 𝗣𝗟𝗔𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 🔅───╮
+│
+│         🎁 Offers { 90% ᥆ff 🔥}
+│
+╰▸ [𝗠𝗔𝗦𝗧𝗘𝗥](t.me/ORGPrime/11) -  ₹100/-  ( 1 Year 😱)
+
+ <i>👉 Buy Plan & #Get 5 Channels.</i>
+
+╰────────────────────╯
+
+╭────────────────────╮
+   BENEFITS ➧ T.me/ORGPrime/11
+╰────────────────────╯
+
+╭───🔅👇𝗣𝗔𝗬 𝗛𝗘𝗥𝗘👇🔅───╮
+                     
+      ᴜᴘɪ ɪᴅ ➢ <code>uhdpay@okaxis</code>
+
+   📲 Sᴇɴᴅ Pᴀʏᴍᴇɴᴛ Sᴄʀᴇᴇɴsʜᴏᴛ
+    ✆ Aᴅᴍɪɴ🕵 👉 [@UHDSupport](t.me/uhdsupport)
+
+╰────────────────────╯
+
+⚠️ For Any Enquiry
+➢ @UHDPremiumbot
+
+❤️ Thᥲᥒk᥉ for J᥆iᥒ
+📢 @MoViesPremium
+📢 @UHDPrimes
+📢 @ORGPrime</b>"""
 
     I_CUD_NT = """ """
 
