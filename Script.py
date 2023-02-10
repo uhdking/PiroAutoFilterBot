@@ -181,7 +181,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 
 ╭───🔅 𝗣𝗟𝗔𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 🔅───╮
 │
-│        🎁 Offers 【 90% ᥆ff 🔥】
+│       🎁 Offers 【 90% ᥆ff 🔥】
 │
 ╰▸ [𝗠𝗔𝗦𝗧𝗘𝗥](t.me/ORGPrime/11) -  ₹100/-  ( 1 Year 😱)
 
@@ -226,7 +226,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 
 ╭───🔅 𝗣𝗟𝗔𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 🔅───╮
 │
-│        🎁 Offers 【 90% ᥆ff 🔥】
+│       🎁 Offers 【 90% ᥆ff 🔥】
 │
 ╰▸ [𝗠𝗔𝗦𝗧𝗘𝗥](t.me/ORGPrime/11) -  ₹100/-  ( 1 Year 😱)
 
@@ -271,7 +271,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 
 ╭───🔅 𝗣𝗟𝗔𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 🔅───╮
 │
-│        🎁 Offers 【 90% ᥆ff 🔥】
+│       🎁 Offers 【 90% ᥆ff 🔥】
 │
 ╰▸ [𝗠𝗔𝗦𝗧𝗘𝗥](t.me/ORGPrime/11) -  ₹100/-  ( 1 Year 😱)
 
