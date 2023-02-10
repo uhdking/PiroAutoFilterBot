@@ -1454,7 +1454,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🌟 Buy Premium 😍", url="https://t.me/ORGPrime/26")
+                   InlineKeyboardButton("🌟 Buy Any Membership & Enjoy 😍", url="https://t.me/ORGPrime/26")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
@@ -1470,7 +1470,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🌟 Buy Premium 😍", url="https://t.me/ORGPrime/26")
+                   InlineKeyboardButton("🌟 Buy Any Membership & Enjoy 😍", url="https://t.me/ORGPrime/26")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
