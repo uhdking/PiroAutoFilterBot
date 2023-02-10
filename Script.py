@@ -169,7 +169,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 
 <b>Consider This 👇👇👇
 
-#MOVIESPREMIUM
+💎 #MOVIESPREMIUM
 
 ✓ Recommendations just for you.
 ✓ Watch all You Want. Unlimited.
@@ -214,7 +214,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 
 <b>Consider This 👇👇👇
 
-#MOVIESPREMIUM
+💎 #MOVIESPREMIUM
 
 ✓ Recommendations just for you.
 ✓ Watch all You Want. Unlimited.
@@ -259,7 +259,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 
 <b>Consider This 👇👇👇
 
-#MOVIESPREMIUM
+💎 #MOVIESPREMIUM
 
 ✓ Recommendations just for you.
 ✓ Watch all You Want. Unlimited.
