@@ -224,7 +224,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton(f'🎬 {search} 🎬', 'rkbtn')
+        InlineKeyboardButton(f'🎬 {search} 🎬', 'rkbtn'),
         InlineKeyboardButton('😍 Buy Premium [VIP] Membership 🔥', url="https://t.me/ORGPrime/26")
     ])
     try:
@@ -1291,7 +1291,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton(f'🎬 {search} 🎬', 'rkbtn')
+        InlineKeyboardButton(f'🎬 {search} 🎬', 'rkbtn'),
         InlineKeyboardButton('😍 Buy Premium [VIP] Membership 🔥', url="https://t.me/ORGPrime/26")
     ])
 
