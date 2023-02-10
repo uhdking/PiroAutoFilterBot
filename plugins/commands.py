@@ -84,7 +84,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("🔄 𝖳𝗋𝗒 𝖠𝗀𝖺𝗂𝗇 🔄", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**First Join @MoviesPremium & Try Again!**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -148,7 +148,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/orgprime") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('😍 Join Premium [VIP] Group 🔥', url="https://t.me/ORGPrime/11") ] ] ),
                     
                 )
             except FloodWait as e:
@@ -159,7 +159,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/orgprime") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('😍 Join Premium [VIP] Group 🔥', url="https://t.me/ORGPrime/11") ] ] ),
                 )
             except Exception as e:
                 logger.warning(e, exc_info=True)
@@ -221,7 +221,7 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/orgprime") ] ] ),
+                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('😍 Join Premium [VIP] Group 🔥', url="https://t.me/ORGPrime/11") ] ] ),
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
@@ -255,7 +255,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/orgprime") ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('😍 Join Premium [VIP] Group 🔥', url="https://t.me/ORGPrime/11") ] ] ),
     )
                     
 
@@ -486,7 +486,7 @@ async def settings(client, message):
                     callback_data=f'setgs#auto_delete#{settings["auto_delete"]}#{grp_id}',
                 ),
                 InlineKeyboardButton(
-                    '5 𝖬𝗂𝗇' if settings["auto_delete"] else '❌ 𝖮𝖿𝖿',
+                    '10 𝖬𝗂𝗇' if settings["auto_delete"] else '❌ 𝖮𝖿𝖿',
                     callback_data=f'setgs#auto_delete#{settings["auto_delete"]}#{grp_id}',
                 ),
             ],
