@@ -610,7 +610,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('𝖠𝗎𝗍𝗈 𝖣𝖾𝗅𝖾𝗍𝖾',
                                          callback_data=f'setgs#auto_delete#{settings["auto_delete"]}#{str(grp_id)}'),
-                    InlineKeyboardButton('30 𝖬𝗂𝗇' if settings["auto_delete"] else '❌ 𝖮𝖿𝖿',
+                    InlineKeyboardButton('10 𝖬𝗂𝗇' if settings["auto_delete"] else '❌ 𝖮𝖿𝖿',
                                          callback_data=f'setgs#auto_delete#{settings["auto_delete"]}#{str(grp_id)}')
                 ],
                 [
@@ -1181,7 +1181,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton('𝖠𝗎𝗍𝗈 𝖣𝖾𝗅𝖾𝗍𝖾',
                                          callback_data=f'setgs#auto_delete#{settings["auto_delete"]}#{str(grp_id)}'),
-                    InlineKeyboardButton('30 𝖬𝗂𝗇' if settings["auto_delete"] else '❌ 𝖮𝖿𝖿',
+                    InlineKeyboardButton('10 𝖬𝗂𝗇' if settings["auto_delete"] else '❌ 𝖮𝖿𝖿',
                                          callback_data=f'setgs#auto_delete#{settings["auto_delete"]}#{str(grp_id)}')
                 ],
                 [
@@ -1366,7 +1366,7 @@ async def auto_filter(client, msg, spoll=False):
                 hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(1800)
+                        await asyncio.sleep(600)
                         await hehe.delete()
                         await message.delete()
                 except KeyError:
@@ -1374,7 +1374,7 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(1800)
+                        await asyncio.sleep(600)
                         await hehe.delete()
                         await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
@@ -1386,7 +1386,7 @@ async def auto_filter(client, msg, spoll=False):
                 hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(1800)
+                        await asyncio.sleep(600)
                         await hmm.delete()
                         await message.delete()
                 except KeyError:
@@ -1394,7 +1394,7 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(1800)
+                        await asyncio.sleep(600)
                         await hmm.delete()
                         await message.delete()
         except Exception as e:
@@ -1405,7 +1405,7 @@ async def auto_filter(client, msg, spoll=False):
                 fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(1800)
+                        await asyncio.sleep(600)
                         await fek.delete()
                         await message.delete()
                 except KeyError:
@@ -1413,7 +1413,7 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(1800)
+                        await asyncio.sleep(600)
                         await fek.delete()
                         await message.delete()
     else:
@@ -1431,7 +1431,7 @@ async def auto_filter(client, msg, spoll=False):
                 await save_group_settings(grpid, 'auto_delete', True)
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
-                    await asyncio.sleep(1800)
+                    await asyncio.sleep(600)
                     await fuk.delete()
                     await message.delete()
     if spoll:
@@ -1463,7 +1463,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(1800)
+        await asyncio.sleep(600)
         await k.delete()
         return
     movielist = []
@@ -1479,7 +1479,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(1800)
+        await asyncio.sleep(600)
         await k.delete()
         return
     movielist += [movie.get('title') for movie in movies]
@@ -1502,14 +1502,14 @@ async def advantage_spell_chok(client, msg): #modified spell check
     )
     try:
         if settings['auto_delete']:
-            await asyncio.sleep(1800)
+            await asyncio.sleep(600)
             await spell_check_del.delete()
     except KeyError:
             grpid = await active_connection(str(message.from_user.id))
             await save_group_settings(grpid, 'auto_delete', True)
             settings = await get_settings(message.chat.id)
             if settings['auto_delete']:
-                await asyncio.sleep(1800)
+                await asyncio.sleep(600)
                 await spell_check_del.delete()
 
 
