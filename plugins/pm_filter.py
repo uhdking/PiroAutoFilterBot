@@ -1463,7 +1463,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(600)
+        await asyncio.sleep(300)
         await k.delete()
         return
     movielist = []
@@ -1479,7 +1479,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(600)
+        await asyncio.sleep(300)
         await k.delete()
         return
     movielist += [movie.get('title') for movie in movies]
@@ -1511,7 +1511,6 @@ async def advantage_spell_chok(client, msg): #modified spell check
             if settings['auto_delete']:
                 await asyncio.sleep(600)
                 await spell_check_del.delete()
-
 
 async def manual_filters(client, message, text=False):
     settings = await get_settings(message.chat.id)
