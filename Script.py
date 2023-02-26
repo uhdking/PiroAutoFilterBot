@@ -164,11 +164,14 @@ Request Again"""
     CUDNT_FND = """<b><i>
 I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
 
-    I_CUDNT = """<u><b>🚨 Not Available!! Don't Worry...</u></b>
+    I_CUDNT = """<u><b>🚨 Here Available !! 👇👇👇</u></b>
 
-<b>Consider This 👇👇👇
+<b>💎 #VIP #MEMBERSHIP
 
-💎 #MOVIESPREMIUM
+✓  Get Acess Of Premium Group.
+✓  Get 10 Lakhs+ Files Collection.
+✓  Daily New Movies And Series.
+✓  Buy Plan & #Get 5 Channels.
 
 ╭───🔅 𝗣𝗟𝗔𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 🔅───╮
 │
@@ -183,10 +186,6 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 ╭────────────────────╮
    BENEFITS ➧ T.me/ORGPrime/11
 ╰────────────────────╯
-
-          📢 हमारे Proof यहां देखें  📢
- 💥 Cʜᴇᴄᴋ 3500+ Pʀᴏᴏғs Hᴇʀᴇ 💥
-      https://t.me/UHDPrimeProof
 
 ╭───🔅👇𝗣𝗔𝗬 𝗛𝗘𝗥𝗘👇🔅───╮
                      
@@ -205,11 +204,17 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 📢 @UHDPrimes
 📢 @ORGPrime</b>"""
 
-    I_CUD_NT = """<u><b>🚨 Not Available!! Don't Worry...</u></b>
+    I_CUD_NT = """<b><i>
+I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
 
-<b>Consider This 👇👇👇
+    I_CUDNT = """<u><b>🚨 Here Available !! 👇👇👇</u></b>
 
-💎 #MOVIESPREMIUM
+<b>💎 #VIP #MEMBERSHIP
+
+✓  Get Acess Of Premium Group.
+✓  Get 10 Lakhs+ Files Collection.
+✓  Daily New Movies And Series.
+✓  Buy Plan & #Get 5 Channels.
 
 ╭───🔅 𝗣𝗟𝗔𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 🔅───╮
 │
@@ -224,10 +229,6 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 ╭────────────────────╮
    BENEFITS ➧ T.me/ORGPrime/11
 ╰────────────────────╯
-
-          📢 हमारे Proof यहां देखें  📢
- 💥 Cʜᴇᴄᴋ 3500+ Pʀᴏᴏғs Hᴇʀᴇ 💥
-      https://t.me/UHDPrimeProof
 
 ╭───🔅👇𝗣𝗔𝗬 𝗛𝗘𝗥𝗘👇🔅───╮
                      
@@ -246,11 +247,17 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 📢 @UHDPrimes
 📢 @ORGPrime</b>"""
 
-    MVE_NT_FND = """<u><b>🚨 Not Available!! Don't Worry...</u></b>
+    MVE_NT_FND = """<b><i>
+I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
 
-<b>Consider This 👇👇👇
+    I_CUDNT = """<u><b>🚨 Here Available !! 👇👇👇</u></b>
 
-💎 #MOVIESPREMIUM
+<b>💎 #VIP #MEMBERSHIP
+
+✓  Get Acess Of Premium Group.
+✓  Get 10 Lakhs+ Files Collection.
+✓  Daily New Movies And Series.
+✓  Buy Plan & #Get 5 Channels.
 
 ╭───🔅 𝗣𝗟𝗔𝗡 𝗗𝗘𝗧𝗔𝗜𝗟𝗦 🔅───╮
 │
@@ -265,10 +272,6 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 ╭────────────────────╮
    BENEFITS ➧ T.me/ORGPrime/11
 ╰────────────────────╯
-
-          📢 हमारे Proof यहां देखें  📢
- 💥 Cʜᴇᴄᴋ 3500+ Pʀᴏᴏғs Hᴇʀᴇ 💥
-      https://t.me/UHDPrimeProof
 
 ╭───🔅👇𝗣𝗔𝗬 𝗛𝗘𝗥𝗘👇🔅───╮
                      
