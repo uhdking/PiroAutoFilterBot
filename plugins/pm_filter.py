@@ -9,7 +9,7 @@ from Script import script
 import pyrogram
 from database.connections_mdb import active_connection, all_connections, delete_connection, if_active, make_active, \
     make_inactive
-from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, SUPPORT_CHAT_ID, SUPPORT_CHAT, CUSTOM_FILE_CAPTION, PICS, AUTH_GROUPS, P_TTI_SHOW_OFF, NOR_IMG, LOG_CHANNEL, SPELL_IMG, MAX_B_TN, IMDB, \
+from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, SUPPORT_CHAT_ID, SUPPORT_CHAT, CUSTOM_FILE_CAPTION, PICS, AUTH_GROUPS, P_TTI_SHOW_OFF, NOR_IMG, LOG_CHANNEL, M_IMG, SPELL_IMG, MAX_B_TN, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE, NO_RESULTS_MSG
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InputMediaPhoto
 from pyrogram import Client, filters, enums
@@ -1361,12 +1361,12 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             if message.chat.id == SUPPORT_CHAT_ID:
-                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\n𝖪𝗂𝗇𝖽𝗅𝗒 S𝖾𝖺𝗋𝖼𝗁 A𝗀𝖺𝗂𝗇 In Group!!</b>")
+                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series in Group</b>")
             else:
                 hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(600)
+                        await asyncio.sleep(300)
                         await hehe.delete()
                         await message.delete()
                 except KeyError:
@@ -1374,19 +1374,19 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(600)
+                        await asyncio.sleep(300)
                         await hehe.delete()
                         await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             if message.chat.id == SUPPORT_CHAT_ID:
-                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\n𝖪𝗂𝗇𝖽𝗅𝗒 S𝖾𝖺𝗋𝖼𝗁 A𝗀𝖺𝗂𝗇 In Group!!</b>")
+                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series in Group</b>")
             else:
                 pic = imdb.get('poster')
                 poster = pic.replace('.jpg', "._V1_UX360.jpg")
                 hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(600)
+                        await asyncio.sleep(300)
                         await hmm.delete()
                         await message.delete()
                 except KeyError:
@@ -1394,18 +1394,18 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(600)
+                        await asyncio.sleep(300)
                         await hmm.delete()
                         await message.delete()
         except Exception as e:
             if message.chat.id == SUPPORT_CHAT_ID:
-                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\n𝖪𝗂𝗇𝖽𝗅𝗒 S𝖾𝖺𝗋𝖼𝗁 A𝗀𝖺𝗂𝗇 In Group!!</b>")
+                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series in Group</b>")
             else:
                 logger.exception(e)
                 fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
                 try:
                     if settings['auto_delete']:
-                        await asyncio.sleep(600)
+                        await asyncio.sleep(300)
                         await fek.delete()
                         await message.delete()
                 except KeyError:
@@ -1413,17 +1413,17 @@ async def auto_filter(client, msg, spoll=False):
                     await save_group_settings(grpid, 'auto_delete', True)
                     settings = await get_settings(message.chat.id)
                     if settings['auto_delete']:
-                        await asyncio.sleep(600)
+                        await asyncio.sleep(300)
                         await fek.delete()
                         await message.delete()
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
-            await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\n𝖪𝗂𝗇𝖽𝗅𝗒 S𝖾𝖺𝗋𝖼𝗁 A𝗀𝖺𝗂𝗇 In Group!!")
+            await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series in Group</b>")
         else:
             fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             try:
                 if settings['auto_delete']:
-                    await asyncio.sleep(600)
+                    await asyncio.sleep(300)
                     await fuk.delete()
                     await message.delete()
             except KeyError:
@@ -1431,7 +1431,7 @@ async def auto_filter(client, msg, spoll=False):
                 await save_group_settings(grpid, 'auto_delete', True)
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
-                    await asyncio.sleep(600)
+                    await asyncio.sleep(300)
                     await fuk.delete()
                     await message.delete()
     if spoll:
@@ -1454,32 +1454,32 @@ async def advantage_spell_chok(client, msg): #modified spell check
         logger.exception(e)
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🌟 Buy Membership & Enjoy 😍", url="https://t.me/ORGPrime/26")
+                   InlineKeyboardButton("💥 Cʜᴇᴄᴋ 4000+ Pʀᴏᴏғs Hᴇʀᴇ 💥", url="https://t.me/UHDPrimeProof")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_photo(
-            photo=SPELL_IMG, 
+            photo=M_IMG, 
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(300)
+        await asyncio.sleep(600)
         await k.delete()
         return
     movielist = []
     if not movies:
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
-                   InlineKeyboardButton("🌟 Buy Membership & Enjoy 😍", url="https://t.me/ORGPrime/26")
+                   InlineKeyboardButton("💥 Cʜᴇᴄᴋ 4000+ Pʀᴏᴏғs Hᴇʀᴇ 💥", url="https://t.me/UHDPrimeProof")
         ]]
         if NO_RESULTS_MSG:
             await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
         k = await msg.reply_photo(
-            photo=SPELL_IMG, 
+            photo=M_IMG, 
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(300)
+        await asyncio.sleep(600)
         await k.delete()
         return
     movielist += [movie.get('title') for movie in movies]
@@ -1502,15 +1502,16 @@ async def advantage_spell_chok(client, msg): #modified spell check
     )
     try:
         if settings['auto_delete']:
-            await asyncio.sleep(600)
+            await asyncio.sleep(300)
             await spell_check_del.delete()
     except KeyError:
             grpid = await active_connection(str(message.from_user.id))
             await save_group_settings(grpid, 'auto_delete', True)
             settings = await get_settings(message.chat.id)
             if settings['auto_delete']:
-                await asyncio.sleep(600)
+                await asyncio.sleep(300)
                 await spell_check_del.delete()
+
 
 async def manual_filters(client, message, text=False):
     settings = await get_settings(message.chat.id)
@@ -1530,7 +1531,7 @@ async def manual_filters(client, message, text=False):
                 try:
                     if fileid == "None":
                         if btn == "[]":
-                            joelkb = await client.send_message(
+                            pirobro = await client.send_message(
                                 group_id, 
                                 reply_text, 
                                 disable_web_page_preview=True,
@@ -1548,13 +1549,13 @@ async def manual_filters(client, message, text=False):
                                     await auto_filter(client, message)
                             try:
                                 if settings['auto_delete']:
-                                    await joelkb.delete()
+                                    await pirobro.delete()
                             except KeyError:
                                 grpid = await active_connection(str(message.from_user.id))
                                 await save_group_settings(grpid, 'auto_delete', True)
                                 settings = await get_settings(message.chat.id)
                                 if settings['auto_delete']:
-                                    await joelkb.delete()
+                                    await pirobro.delete()
 
                         else:
                             button = eval(btn)
@@ -1663,7 +1664,7 @@ async def global_filters(client, message, text=False):
                 try:
                     if fileid == "None":
                         if btn == "[]":
-                            joelkb = await client.send_message(
+                            pirobro = await client.send_message(
                                 group_id, 
                                 reply_text, 
                                 disable_web_page_preview=True,
