@@ -1496,7 +1496,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
     ]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spol#{reqstr1}#close_spellcheck')])
     spell_check_del = await msg.reply_photo(
-        photo=(SPELL_IMG),
+        photo=(M_IMG),
         caption=(script.CUDNT_FND.format(mv_rqst)),
         reply_markup=InlineKeyboardMarkup(btn)
     )
