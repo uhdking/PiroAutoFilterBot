@@ -204,10 +204,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 📢 @UHDPrimes
 📢 @ORGPrime</b>"""
 
-    I_CUD_NT = """<b><i>
-I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
-
-    I_CUDNT = """<u><b>🚨 Here Available !! 👇👇👇</u></b>
+    I_CUD_NT = """<u><b>🚨 Here Available !! 👇👇👇</u></b>
 
 <b>💎 #VIP #MEMBERSHIP
 
@@ -247,10 +244,7 @@ I couldn't find anything related to that. Did you mean any one of these?</i></b>
 📢 @UHDPrimes
 📢 @ORGPrime</b>"""
 
-    MVE_NT_FND = """<b><i>
-I couldn't find anything related to that. Did you mean any one of these?</i></b>"""
-
-    I_CUDNT = """<u><b>🚨 Here Available !! 👇👇👇</u></b>
+    MVE_NT_FND = """<u><b>🚨 Here Available !! 👇👇👇</u></b>
 
 <b>💎 #VIP #MEMBERSHIP
 
