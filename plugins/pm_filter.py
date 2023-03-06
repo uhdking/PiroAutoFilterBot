@@ -257,7 +257,7 @@ async def advantage_spoll_choker(bot, query):
             reqstr1 = query.from_user.id if query.from_user else 0
             reqstr = await bot.get_users(reqstr1)
             bton = [[
-                   InlineKeyboardButton("🔎 𝖦𝗈𝗈𝗀𝗅𝖾", url=f"https://www.google.com/search?q={reqst_gle}")
+                   InlineKeyboardButton("💥 Cʜᴇᴄᴋ 4000+ Pʀᴏᴏғs Hᴇʀᴇ 💥", url="https://t.me/UHDPrimeProof")
             ]]
             if NO_RESULTS_MSG:
                 await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
@@ -266,7 +266,7 @@ async def advantage_spoll_choker(bot, query):
             caption=script.MVE_NT_FND.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(bton)
         )
-            await asyncio.sleep(300)
+            await asyncio.sleep(600)
             await k.delete()
 
 
@@ -1470,7 +1470,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(600)
+        await asyncio.sleep(300)
         await k.delete()
         return
     movielist = []
@@ -1486,7 +1486,7 @@ async def advantage_spell_chok(client, msg): #modified spell check
             caption=script.I_CUDNT.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(button)
         )
-        await asyncio.sleep(600)
+        await asyncio.sleep(300)
         await k.delete()
         return
     movielist += [movie.get('title') for movie in movies]
