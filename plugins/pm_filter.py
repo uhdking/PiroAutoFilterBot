@@ -262,7 +262,7 @@ async def advantage_spoll_choker(bot, query):
             if NO_RESULTS_MSG:
                 await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
             k = await msg.reply_photo(
-            photo=SPELL_IMG, 
+            photo=M_IMG, 
             caption=script.MVE_NT_FND.format(mv_rqst),
             reply_markup=InlineKeyboardMarkup(bton)
         )
