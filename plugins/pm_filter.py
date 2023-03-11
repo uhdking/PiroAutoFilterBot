@@ -1361,7 +1361,7 @@ async def auto_filter(client, msg, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             if message.chat.id == SUPPORT_CHAT_ID:
-                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series here ⬇\n👉  @UHDiMAXGroup</b>")
+                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n\n📁Total {str(total_results)} Results Are Found \nFor Your Query 👉 "{search}".\n\nKindly Ask Movies & Series\n ⬇⬇⬇⬇⬇\n Here 👉  @UHDiMAXGroup 😎</b>")
             else:
                 hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
                 try:
@@ -1379,7 +1379,7 @@ async def auto_filter(client, msg, spoll=False):
                         await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             if message.chat.id == SUPPORT_CHAT_ID:
-                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series here ⬇\n👉  @UHDiMAXGroup</b>")
+                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n\n📁Total {str(total_results)} Results Are Found \nFor Your Query 👉 "{search}".\n\nKindly Ask Movies & Series\n ⬇⬇⬇⬇⬇\n Here 👉  @UHDiMAXGroup 😎</b>")
             else:
                 pic = imdb.get('poster')
                 poster = pic.replace('.jpg', "._V1_UX360.jpg")
@@ -1399,7 +1399,7 @@ async def auto_filter(client, msg, spoll=False):
                         await message.delete()
         except Exception as e:
             if message.chat.id == SUPPORT_CHAT_ID:
-                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series here ⬇\n👉  @UHDiMAXGroup</b>")
+                await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n\n📁Total {str(total_results)} Results Are Found \nFor Your Query 👉 "{search}".\n\nKindly Ask Movies & Series\n ⬇⬇⬇⬇⬇\n Here 👉  @UHDiMAXGroup 😎</b>")
             else:
                 logger.exception(e)
                 fek = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
@@ -1418,7 +1418,7 @@ async def auto_filter(client, msg, spoll=False):
                         await message.delete()
     else:
         if message.chat.id == SUPPORT_CHAT_ID:
-            await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n📁 {str(total_results)} 𝖱𝖾𝗌𝗎𝗅𝗍𝗌 𝖺𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖿𝗈𝗋 𝗒𝗈𝗎𝗋 𝗊𝗎𝖾𝗋𝗒 {search}.\n\nKindly ask movies and series here ⬇\n👉  @UHDiMAXGroup</b>")
+            await message.reply_text(f"<b>👋 𝖧𝖾𝗒 {message.from_user.mention} \n\n📁Total {str(total_results)} Results Are Found \nFor Your Query 👉 "{search}".\n\nKindly Ask Movies & Series\n ⬇⬇⬇⬇⬇\n Here 👉  @UHDiMAXGroup 😎</b>")
         else:
             fuk = await message.reply_photo(photo=NOR_IMG, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             try:
